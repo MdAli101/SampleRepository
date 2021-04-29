@@ -1,0 +1,22 @@
+push = giving codes in gitHub
+pull = taking codes from gitHub to our computer
+
+Push an existing repository from the command line
+    git remote add origin https://github.com/MdAli101/GitTutorialHub.git
+
+    here git will remote add this link as the name of origin
+
+checking url(s):
+    git remote -v
+    it will show 2 url one for pull and one for push.
+
+pushing codes:
+    git push -u origin main
+    This is the code to push your codes in git hub but for first time it wont allow
+    you to push codes because in this way a squickward will also push push codes
+    on your github account
+
+so check my docs on the "Making remote and ssh key" in it's parent folder.
+and create your own key
+
+than u'll have that 
